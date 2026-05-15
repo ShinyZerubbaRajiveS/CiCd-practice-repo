@@ -20,3 +20,6 @@ jobs:
 
       - name: Verify Python
         run: python --version
+
+      - name: Run Python File
+        run: python demo.py
